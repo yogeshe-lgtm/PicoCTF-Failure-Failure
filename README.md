@@ -37,7 +37,7 @@ pip3 --version
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/yogeshe-lgtm/PicoCTF-Failure-Failure.git
+git clone https://github.com/yogeshe-lgtm/PicoCTF-Failure-Failure.git
 ```
 
 ### 2. Move into the Project Directory
