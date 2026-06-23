@@ -37,13 +37,13 @@ pip3 --version
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+https://github.com/yogeshe-lgtm/PicoCTF-Failure-Failure.git
 ```
 
 ### 2. Move into the Project Directory
 
 ```bash
-cd <REPOSITORY_NAME>
+cd PicoCTF-Failure-Failure
 ```
 
 ### 3. Install Dependencies
