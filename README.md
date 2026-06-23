@@ -1,26 +1,93 @@
 # PicoCTF-Failure-Failure
 The guided solution for PicoCTF (Failure-Failure)
-🚩 **Day 3 of My CTF Series — Challenge Completed: “failure-failure”**
+# Failure Failure – picoCTF Challenge Writeup
 
-Another day, another challenge solved — and today’s CTF pushed me deeper into understanding how web infrastructure actually works behind the scenes.
+## Overview
 
-For this challenge, I started by carefully reading and understanding the scenario. From there, I identified that the challenge focused on **web network traffic analysis and request handling**.
+This repository contains my solution for the **Failure Failure** challenge from picoCTF.
 
-My approach:
-🔹 Analyzed the source code of the web application
-🔹 Studied the **HAProxy configuration** to understand how requests were managed
-🔹 Learned more about an important concept:
-**How does a load balancer decide which backend server should receive traffic?**
-🔹 Applied my Python skills to build a custom script/tool to automate repeated requests and interact with the application logic
-🔹 Successfully captured the flag 🎯
+The repository includes:
 
-This challenge was a great reminder that solving CTFs isn’t only about exploitation — it’s also about understanding architecture, traffic flow, and thinking through how systems behave under different conditions.
+* `solution.py` → Python script used to solve the challenge
+* `requirements.txt` → Required Python dependencies
 
-I’m also proud of something beyond solving the challenge — **staying consistent and showing up every day for this CTF series.** Small progress every day compounds into real growth.
+⚠️ **Disclaimer**
+This repository is provided strictly for **educational and learning purposes only**. Do not misuse these techniques against systems without proper authorization.
 
-📂 GitHub Repository: **[Add your repository link here]**
+---
 
-⚠️ **Educational Purpose Disclaimer:**
-The repository and any scripts shared are strictly for **educational and learning purposes only**. Please do not misuse them or use them against systems without proper authorization.
+## Prerequisites
 
-#CTF #CyberSecurity #WebSecurity #Python #HAProxy #LoadBalancer #LearningInPublic #CaptureTheFlag #EthicalHacking #InfoSec #Consistency #GitHub
+Before running the script, ensure you have:
+
+* Python 3 installed
+* pip package manager
+
+Verify installation:
+
+```bash
+python3 --version
+pip3 --version
+```
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
+```
+
+### 2. Move into the Project Directory
+
+```bash
+cd <REPOSITORY_NAME>
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Solution
+
+Execute the Python script:
+
+```bash
+python3 solution.py
+```
+
+If required, modify any challenge-specific values inside `solution.py` before execution.
+
+---
+
+## Project Structure
+
+```plaintext
+.
+├── solution.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Learning Outcome
+
+Through this challenge, I practiced:
+
+* Understanding application behavior
+* Working with automated requests
+* Analyzing challenge logic
+* Improving CTF problem-solving workflow
+
+---
+
+## Note
+
+This project is intended only for CTF practice and cybersecurity education.
